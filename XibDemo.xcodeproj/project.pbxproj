@@ -14,6 +14,8 @@
 		240F86DA1CEB00F000736139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240F86D81CEB00F000736139 /* LaunchScreen.storyboard */; };
 		240F86E51CEB00F100736139 /* XibDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240F86E41CEB00F100736139 /* XibDemoTests.swift */; };
 		240F86F01CEB00F100736139 /* XibDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240F86EF1CEB00F100736139 /* XibDemoUITests.swift */; };
+		240F86FE1CEB011A00736139 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 240F86FD1CEB011A00736139 /* CustomView.xib */; };
+		240F87001CEB020F00736139 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240F86FF1CEB020F00736139 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		240F86EB1CEB00F100736139 /* XibDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XibDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		240F86EF1CEB00F100736139 /* XibDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibDemoUITests.swift; sourceTree = "<group>"; };
 		240F86F11CEB00F100736139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240F86FD1CEB011A00736139 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		240F86FF1CEB020F00736139 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				240F86D61CEB00F000736139 /* Assets.xcassets */,
 				240F86D81CEB00F000736139 /* LaunchScreen.storyboard */,
 				240F86DB1CEB00F000736139 /* Info.plist */,
+				240F86FD1CEB011A00736139 /* CustomView.xib */,
+				240F86FF1CEB020F00736139 /* CustomView.swift */,
 			);
 			path = XibDemo;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				240F86DA1CEB00F000736139 /* LaunchScreen.storyboard in Resources */,
+				240F86FE1CEB011A00736139 /* CustomView.xib in Resources */,
 				240F86D71CEB00F000736139 /* Assets.xcassets in Resources */,
 				240F86D51CEB00F000736139 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240F87001CEB020F00736139 /* CustomView.swift in Sources */,
 				240F86D21CEB00F000736139 /* ViewController.swift in Sources */,
 				240F86D01CEB00F000736139 /* AppDelegate.swift in Sources */,
 			);
